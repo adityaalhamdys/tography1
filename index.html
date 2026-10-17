@@ -75,17 +75,17 @@
         <i class="fa-solid fa-circle-play text-sm w-4 text-center text-purple-500"></i><span>2. TUTORIAL APLIKASI</span>
       </button>
       <button onclick="switchMainTab('tab-materi')" id="nav-tab-materi" class="w-full text-left px-4 py-3.5 rounded-xl flex items-center gap-3 transition-all text-slate-600 hover:text-slate-900 hover:bg-slate-100">
-        <i class="fa-solid fa-lock text-sm w-4 text-center text-amber-500"></i><span>3. MATERI & SIMULATOR</span>
+        <i class="fa-solid fa-book-open text-sm w-4 text-center text-purple-600"></i><span>3. MATERI & SIMULATOR</span>
       </button>
       <button onclick="switchMainTab('tab-tugas')" id="nav-tab-tugas" class="w-full text-left px-4 py-3.5 rounded-xl flex items-center justify-between transition-all text-slate-600 hover:text-slate-900 hover:bg-slate-100">
-        <div class="flex items-center gap-3"><i class="fa-solid fa-lock text-sm w-4 text-center text-amber-500"></i><span>4. TUGAS & WORKFLOW</span></div>
+        <div class="flex items-center gap-3"><i class="fa-solid fa-trophy text-sm w-4 text-center text-purple-500"></i><span>4. TUGAS & WORKFLOW</span></div>
         <span id="nav-badge-mission" class="text-[10px] bg-purple-100 text-purple-800 px-2 py-0.5 rounded-full font-bold">0/7</span>
       </button>
       <button onclick="switchMainTab('tab-evaluasi')" id="nav-tab-evaluasi" class="w-full text-left px-4 py-3.5 rounded-xl flex items-center gap-3 transition-all text-slate-600 hover:text-slate-900 hover:bg-slate-100">
-        <i class="fa-solid fa-lock text-sm w-4 text-center text-amber-500"></i><span>5. CEK HASIL & GALERI</span>
+        <i class="fa-solid fa-images text-sm w-4 text-center text-cyan-600"></i><span>5. CEK HASIL & GALERI</span>
       </button>
       <button onclick="switchMainTab('tab-refleksi')" id="nav-tab-refleksi" class="w-full text-left px-4 py-3.5 rounded-xl flex items-center gap-3 transition-all text-slate-600 hover:text-slate-900 hover:bg-slate-100">
-        <i class="fa-solid fa-lock text-sm w-4 text-center text-amber-500"></i><span>6. REFLEKSI & BANTUAN</span>
+        <i class="fa-solid fa-pen text-sm w-4 text-center text-emerald-600"></i><span>6. REFLEKSI & BANTUAN</span>
       </button>
       <button onclick="switchMainTab('tab-guru')" id="nav-tab-guru" class="w-full text-left hidden px-4 py-3.5 rounded-xl flex items-center gap-3 transition-all text-purple-700 bg-purple-50 border border-purple-200">
         <i class="fa-solid fa-shield-halved text-sm w-4 text-center text-purple-600"></i><span>7. DASHBOARD GURU</span>
@@ -206,7 +206,7 @@
       </div>
     </div>
 
-    <!-- 3. MATERI & SIMULATOR -->
+    <!-- 3. MATERI & SIMULATOR (DIPISAH: Modul 6 K3 & Modul 7 Angle/Shot) -->
     <div id="tab-materi" class="view-content-panel space-y-6">
       <div class="bg-white p-2 rounded-2xl border border-slate-200 flex items-center gap-2 overflow-x-auto no-scrollbar shadow-xs">
         <button onclick="switchSubModul('sub-modul-1')" id="pill-modul-1" class="sub-modul-pill px-4 py-2 rounded-xl text-xs font-mono font-bold transition-all canva-gradient-bg text-white shadow-md shadow-purple-500/20 whitespace-nowrap">MODUL 1: KAMERA</button>
@@ -331,7 +331,7 @@
         </div>
       </div>
 
-      <!-- Modul 5: Genre (Dilengkapi Pengertian & Maksud Setiap Genre) -->
+      <!-- Modul 5: Genre (Pengertian & Maksud Setiap Genre) -->
       <div id="sub-modul-5" class="sub-tab-panel space-y-4">
         <div class="mb-2">
           <span class="text-xs font-mono text-purple-700 font-extrabold uppercase">MATERI PONDASI FOTOGRAFI</span>
@@ -347,7 +347,7 @@
         <div id="genre-content-container" class="bg-white p-5 rounded-3xl border border-slate-200 min-h-[300px] shadow-canva-card"></div>
       </div>
       
-      <!-- Modul 6: K3 Kamera (Terpisah & Rinci dengan Simbol Menarik) -->
+      <!-- Modul 6: K3 Kamera (Terpisah, Simbol Menarik & Penjelasan Rinci) -->
       <div id="sub-modul-6" class="sub-tab-panel space-y-6">
         <div class="mb-2">
           <span class="text-xs font-mono text-purple-700 font-extrabold uppercase">MATERI K3 PROFESIONAL</span>
@@ -383,7 +383,7 @@
         </div>
       </div>
 
-      <!-- Modul 7: Angle & Shot (Terpisah & Bisa di-Zoom saat diklik) -->
+      <!-- Modul 7: Angle & Shot (Terpisah, Semua Gambar Bisa di-Zoom) -->
       <div id="sub-modul-7" class="sub-tab-panel space-y-6">
         <div class="mb-2">
           <span class="text-xs font-mono text-purple-700 font-extrabold uppercase">MATERI SUDUT & UKURAN</span>
